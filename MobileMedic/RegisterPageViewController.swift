@@ -58,7 +58,7 @@ class RegisterPageViewController: UIViewController {
         var myAlert = UIAlertController(title:"Alert", message:userMessage, preferredStyle: UIAlertControllerStyle.alert);
         
     }
-    
+     
     /*
     // MARK: - Navigation
 
