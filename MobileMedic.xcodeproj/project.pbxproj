@@ -7,14 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		52536E2F1EE9D19C00C76CD9 /* ViewControllerGallery.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52536E2E1EE9D19C00C76CD9 /* ViewControllerGallery.swift */; };
 		52FDD37F1EA79CDD006B5D42 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52FDD37E1EA79CDD006B5D42 /* AppDelegate.swift */; };
-		52FDD3811EA79CDD006B5D42 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52FDD3801EA79CDD006B5D42 /* ViewController.swift */; };
 		52FDD3841EA79CDD006B5D42 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 52FDD3821EA79CDD006B5D42 /* Main.storyboard */; };
 		52FDD3861EA79CDD006B5D42 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 52FDD3851EA79CDD006B5D42 /* Assets.xcassets */; };
 		52FDD3891EA79CDD006B5D42 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 52FDD3871EA79CDD006B5D42 /* LaunchScreen.storyboard */; };
 		52FDD3941EA79CDD006B5D42 /* MobileMedicTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52FDD3931EA79CDD006B5D42 /* MobileMedicTests.swift */; };
 		52FDD39F1EA79CDD006B5D42 /* MobileMedicUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52FDD39E1EA79CDD006B5D42 /* MobileMedicUITests.swift */; };
 		6CD491DD1EB1067A009E8164 /* RegisterPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CD491DC1EB1067A009E8164 /* RegisterPageViewController.swift */; };
+		DFA86B1F8E2F616BF35DE636 /* Pods_MobileMedic.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CC4FA69C56BBA427A2503311 /* Pods_MobileMedic.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,9 +36,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		52536E2E1EE9D19C00C76CD9 /* ViewControllerGallery.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewControllerGallery.swift; sourceTree = "<group>"; };
 		52FDD37B1EA79CDD006B5D42 /* MobileMedic.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MobileMedic.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		52FDD37E1EA79CDD006B5D42 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		52FDD3801EA79CDD006B5D42 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		52FDD3831EA79CDD006B5D42 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		52FDD3851EA79CDD006B5D42 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		52FDD3881EA79CDD006B5D42 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -48,7 +49,10 @@
 		52FDD39A1EA79CDD006B5D42 /* MobileMedicUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MobileMedicUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		52FDD39E1EA79CDD006B5D42 /* MobileMedicUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MobileMedicUITests.swift; sourceTree = "<group>"; };
 		52FDD3A01EA79CDD006B5D42 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5390C1F3E02D1C2FCC161417 /* Pods-MobileMedic.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MobileMedic.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MobileMedic/Pods-MobileMedic.debug.xcconfig"; sourceTree = "<group>"; };
 		6CD491DC1EB1067A009E8164 /* RegisterPageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegisterPageViewController.swift; sourceTree = "<group>"; };
+		8CFC600995425E4E486AC444 /* Pods-MobileMedic.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MobileMedic.release.xcconfig"; path = "Pods/Target Support Files/Pods-MobileMedic/Pods-MobileMedic.release.xcconfig"; sourceTree = "<group>"; };
+		CC4FA69C56BBA427A2503311 /* Pods_MobileMedic.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MobileMedic.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +60,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DFA86B1F8E2F616BF35DE636 /* Pods_MobileMedic.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -76,6 +81,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		045B5D13BD6B727CB71F916D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5390C1F3E02D1C2FCC161417 /* Pods-MobileMedic.debug.xcconfig */,
+				8CFC600995425E4E486AC444 /* Pods-MobileMedic.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		52FDD3721EA79CDD006B5D42 = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +97,8 @@
 				52FDD3921EA79CDD006B5D42 /* MobileMedicTests */,
 				52FDD39D1EA79CDD006B5D42 /* MobileMedicUITests */,
 				52FDD37C1EA79CDD006B5D42 /* Products */,
+				045B5D13BD6B727CB71F916D /* Pods */,
+				74CAD5DC63BD517194133A13 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -100,12 +116,12 @@
 			isa = PBXGroup;
 			children = (
 				52FDD37E1EA79CDD006B5D42 /* AppDelegate.swift */,
-				52FDD3801EA79CDD006B5D42 /* ViewController.swift */,
 				52FDD3821EA79CDD006B5D42 /* Main.storyboard */,
 				52FDD3851EA79CDD006B5D42 /* Assets.xcassets */,
 				52FDD3871EA79CDD006B5D42 /* LaunchScreen.storyboard */,
 				52FDD38A1EA79CDD006B5D42 /* Info.plist */,
 				6CD491DC1EB1067A009E8164 /* RegisterPageViewController.swift */,
+				52536E2E1EE9D19C00C76CD9 /* ViewControllerGallery.swift */,
 			);
 			path = MobileMedic;
 			sourceTree = "<group>";
@@ -128,6 +144,14 @@
 			path = MobileMedicUITests;
 			sourceTree = "<group>";
 		};
+		74CAD5DC63BD517194133A13 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CC4FA69C56BBA427A2503311 /* Pods_MobileMedic.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -135,9 +159,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 52FDD3A31EA79CDD006B5D42 /* Build configuration list for PBXNativeTarget "MobileMedic" */;
 			buildPhases = (
+				5E0A781B8E1DB4DC26480E3E /* [CP] Check Pods Manifest.lock */,
 				52FDD3771EA79CDD006B5D42 /* Sources */,
 				52FDD3781EA79CDD006B5D42 /* Frameworks */,
 				52FDD3791EA79CDD006B5D42 /* Resources */,
+				3AC4BCE162F6E0D42FAAB524 /* [CP] Embed Pods Frameworks */,
+				856A1E75FAF26E1B16C0E6AA /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -258,13 +285,61 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		3AC4BCE162F6E0D42FAAB524 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MobileMedic/Pods-MobileMedic-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5E0A781B8E1DB4DC26480E3E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		856A1E75FAF26E1B16C0E6AA /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MobileMedic/Pods-MobileMedic-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		52FDD3771EA79CDD006B5D42 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				52FDD3811EA79CDD006B5D42 /* ViewController.swift in Sources */,
 				52FDD37F1EA79CDD006B5D42 /* AppDelegate.swift in Sources */,
+				52536E2F1EE9D19C00C76CD9 /* ViewControllerGallery.swift in Sources */,
 				6CD491DD1EB1067A009E8164 /* RegisterPageViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -413,6 +488,7 @@
 		};
 		52FDD3A41EA79CDD006B5D42 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5390C1F3E02D1C2FCC161417 /* Pods-MobileMedic.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
@@ -429,6 +505,7 @@
 		};
 		52FDD3A51EA79CDD006B5D42 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8CFC600995425E4E486AC444 /* Pods-MobileMedic.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";

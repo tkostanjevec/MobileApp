@@ -1,0 +1,6 @@
+framework module Pods_MobileMedic {
+  umbrella header "Pods-MobileMedic-umbrella.h"
+
+  export *
+  module * { export * }
+}
